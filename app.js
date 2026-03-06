@@ -13,5 +13,6 @@ let nextbtn = document.querySelector('.nextbtn');
 
 nextbtn.addEventListener('click',()=>{
     let RandomText = Math.floor(Math.random()*Quotes.length)
+    
     quoteshow.innerHTML = Quotes[RandomText] 
 })
